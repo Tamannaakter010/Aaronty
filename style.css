@@ -511,3 +511,44 @@ width: 40%;
         background-color: #088178; /* Full background color */
     }
 }
+/*----------------------------------------------------footer--------------------------------------*/
+footer {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 20px; /* This should apply to all .col elements */
+}
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px; /* Corrected '2opx' to '20px' */
+}
+
+footer p {
+    font-size: 12px;
+    margin: 0 0 9px 0;
+}
+
+footer a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 20px; /* Ensure this is working */
+}
+
+footer .follow i {
+    color: #088178;
+    padding-right: 5px;
+    cursor: pointer;
+}
